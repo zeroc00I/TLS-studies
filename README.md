@@ -21,15 +21,14 @@ Built in to integrity + authentication mechanism
 Non repudiation:
 Sender cannot later deny sending a message
 
-
-Key players
-Client
+Key players:
+* Client
 Optionally authenticated (rare)
 
-Server
+* Server
 Always authenticated / Always provide the certificate
 
-Certificate Authority
+* Certificate Authority
 Provides de Trust Anchor
 Five organizations secure 98% of the internet
 IdenTrust -> Lets encrypt (51.9) | Digicert -> Geotrust (19.4) | Sectigo -> Comodo (17.5) | Godaddy (6.9) | Globalsign (2.9)
