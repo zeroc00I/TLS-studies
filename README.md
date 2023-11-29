@@ -1,27 +1,26 @@
 # TLS-studies
 Work in progress
 
-Drafts from Practical TLS
-HTTPS -> HTML transferred with HTTP protected by SSL
-But can also protect other data transfer
-SSL VPN
+## Drafts from Practical TLS
+* HTTPS -> HTML transferred with HTTP protected by SSL
+* But can also protect other data transfer
+* SSL VPN
 
-Secure sockets layer (Netscap 1994)
-Transport Layer security (maintenance handed to IETF in 1999 and renamed protocol to TLS)
+* Secure sockets layer (Netscape 1994)
+* Transport Layer security (maintenance handed to IETF in 1999 and renamed protocol to TLS)
 
 # How the secure is made
-Confidentiality / Encryption
-Integrity / Hashing
-Authentication / PKI
+* Confidentiality / Encryption
+* Integrity / Hashing
+* Authentication / PKI
 
-Anti-replay: Request transfering 100. A MitM trying to repeat the request.
-Provided with built-in sequence numbers
-Built in to integrity + authentication mechanism
+* Anti-replay: Request transfering 100. A MitM trying to repeat the request.
+* Provided with built-in sequence numbers
+* Built in to integrity + authentication mechanism
 
-Non repudiation:
-Sender cannot later deny sending a message
+* Non repudiation: Sender cannot later deny sending a message
 
-Key players:
+### Key players:
 * Client
 Optionally authenticated (rare)
 
